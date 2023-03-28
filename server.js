@@ -3,6 +3,7 @@ const colors = require('colors')
 const dotenv = require("dotenv").config() //variables de entorno //config archivo de var
 const { connectDB } = require("./config/db")
 const {errorHandler} = require("./middleware/errorMiddleware")
+const cors = require("cors");
 
 
 connectDB()
